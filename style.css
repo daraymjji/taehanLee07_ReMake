@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'KotraBold';
+    src: url('fonts/KOTRA_BOLD.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    background-color: #201B17;
+    color: #E0D7C6;
+    font-family: 'KotraBold', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(145deg, #2b2622, #171411);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000000, -10px -10px 20px #37302b;
+    padding: 20px;
+    width: 1000px;
+    height: 650px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    color: #F3C25F;
+    text-shadow: 2px 2px 5px #000;
+}
+
+button {
+    font-family: 'KotraBold', sans-serif;
+    background-color: #B94E31;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.character-info {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#character-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #4A3D32;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+#resistances p {
+    font-size: 1.1em;
+    color: #C8BA9A;
+}
